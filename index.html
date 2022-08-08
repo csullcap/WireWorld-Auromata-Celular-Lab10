@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/purecss@2.1.0/build/pure-min.css"
+      integrity="sha384-yHIFVG6ClnONEA5yB5DJXfW2/KC173DIQrYoZMEtBvGzmf0PKiGyNEqe9N6BNDBH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/purecss@2.1.0/build/grids-responsive-min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/purecss@2.1.0/build/base-min.css"
+    />
+
+    <link rel="stylesheet" href="src/css/main.css" />
+
+    <link rel="icon" href="src/imgs/favicon.ico" />
+    <title>Wire-World</title>
+  </head>
+
+  <script src="src/js/index.js"></script>
+  <body>
+    <div class="pure-g">
+      <div class="header pure-u-1">
+        <h1>Automata Celular - Wire-World</h1>
+      </div>
+      <div class="tablero pure-u-1 pure-u-xl-15-24">
+        <canvas
+          id="canvas"
+          width="750"
+          height="600"
+          style="border: 1px solid #000000"
+        ></canvas>
+      </div>
+      <div class="controles pure-u-1 pure-u-xl-3-24">
+        <h3>Controles</h3>
+        <button
+          type="button"
+          class="pure-button pure-button-primary"
+          id="boton_limpiar"
+        >
+          Limpiar Automata
+        </button>
+
+        <button
+          type="button"
+          class="pure-button pure-button-primary"
+          id="boton_iniciar_parar"
+        >
+          Iniciar Automata
+        </button>
+      </div>
+      <div class="leyenda pure-u-1 pure-u-xl-6-24">
+        <h3>Leyenda de estados</h3>
+        <div>
+          <table class="center pure-table">
+            <thead>
+              <tr>
+                <th>Color</th>
+                <th>Estado</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td style="background-color: #000000"></td>
+                <td>Vacio</td>
+              </tr>
+              <tr>
+                <td style="background-color: #fcdf03"></td>
+                <td>Cable</td>
+              </tr>
+              <tr>
+                <td style="background-color: #07d7f7"></td>
+                <td>Cabeza</td>
+              </tr>
+              <tr>
+                <td style="background-color: #f70707"></td>
+                <td>Cola</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div class="ejemplos pure-u-1">
+        <h3>Ejemplos de Automatas Celulares - Wire-World</h3>
+        <div>
+          <h4>Ejemplo 1</h4>
+          <img src="src/imgs/AutomataCelular_1.png" alt="ejemplo1" />
+        </div>
+        <div>
+          <h4>Ejemplo 2</h4>
+          <img src="src/imgs/AutomataCelular_2.png" alt="ejemplo2" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

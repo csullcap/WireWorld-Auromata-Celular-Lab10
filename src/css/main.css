@@ -1,0 +1,57 @@
+*. {
+  font-family: Raleway, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+body {
+  background-color: #f5f5f5;
+}
+
+.center {
+  margin: 0 auto;
+}
+h3 {
+  text-align: center;
+}
+
+.pure-g > div {
+  box-sizing: border-box;
+}
+
+.tablero {
+  padding: 1em;
+  text-align: center;
+}
+
+.controles {
+  border-right: 1px solid #bfbfbf;
+  margin-top: 1em;
+  text-align: center;
+}
+
+.header {
+  letter-spacing: 0.05em;
+  text-align: center;
+  border-bottom: 1px solid #bfbfbf;
+  font-weight: 100;
+  padding: 1em;
+}
+
+.header h1 {
+  font-weight: 100;
+  font-size: 1.5em;
+  margin: 0;
+}
+button {
+  margin: 1em;
+}
+.leyenda {
+  margin-top: 1em;
+}
+
+.ejemplos {
+  text-align: center;
+}
+
+.ejemplos img {
+  margin: 1em;
+}
